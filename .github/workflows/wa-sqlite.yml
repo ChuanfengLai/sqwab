@@ -19,7 +19,7 @@ on:
 
       make_args:
         description: 'make arguments'
-        default: ''
+        default: 'WASQLITE_EXTRA_DEFINES="-DSQLITE_ENABLE_FTS5'
         required: false
         type: string
 permissions:
