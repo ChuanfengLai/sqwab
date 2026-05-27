@@ -22,7 +22,8 @@ on:
         default: ''
         required: false
         type: string
-        
+permissions:
+  contents: write      
 env:
   EM_CACHE_FOLDER: 'emsdk-cache'
   GH_TOKEN: ${{ github.token }}
